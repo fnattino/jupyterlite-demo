@@ -4,8 +4,8 @@ jupyterlite-core==0.1.0b19
 jupyterlite-pyodide-kernel==0.0.5
 # dependency for indexing the content
 jupyterlab~=3.5.3
-# geospatial libraries
-rioxarray
+# geospatial libraries - missing rasterio so far: https://pyodide.org/en/stable/usage/packages-in-pyodide.html
+# rioxarray    
 geopandas
 pystac
 pystac-client
